@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/gbenhaim-apps/crt-kube-admin-crt-tenant/devfile-sample-python-basic/devfile-sample-python-basic@sha256:b716552db2d7c80037c19cf08828a4ea63bc3afe6e7db118e85bab24909124a3
+        name: my-python
+        resources: {}
+status: {}

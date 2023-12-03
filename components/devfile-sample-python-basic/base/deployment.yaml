@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/gbenhaim-apps/crt-kube-admin-crt-tenant/devfile-sample-python-basic/devfile-sample-python-basic@sha256:b716552db2d7c80037c19cf08828a4ea63bc3afe6e7db118e85bab24909124a3
         name: my-python
         ports:
         - containerPort: 8081
